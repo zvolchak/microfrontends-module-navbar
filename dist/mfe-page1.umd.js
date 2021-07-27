@@ -1613,7 +1613,7 @@ var Components = {
   Page1: Page1
 };
 Object.keys(Components).forEach(function (name) {
-  external_commonjs_vue_commonjs2_vue_root_Vue_default.a.Components(name, Components[name]);
+  external_commonjs_vue_commonjs2_vue_root_Vue_default.a.component(name, Components[name]);
 });
 /* harmony default export */ var components = (Components);
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib.js
